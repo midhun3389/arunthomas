@@ -14,7 +14,7 @@ def welcome():
   
 # this is the main function in which we define our webpage 
 def main():
-    global ouptut
+    global output
       # giving the webpage a title
     st.title("Risk prediction")
       
