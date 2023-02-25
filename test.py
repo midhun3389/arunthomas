@@ -189,12 +189,12 @@ def main():
             
 
         # result = prediction(sepal_length, sepal_width, petal_length, petal_width)
-    st.title("PREDICTION")
-    if output ==1:
-        st.success('There will be delivery risk')
-    else:
+        st.title("PREDICTION")
+        if output ==1:
+            st.success('There will be delivery risk')
+        else:
         
-        st.success('There will be no risk')
+            st.success('There will be no risk')
     
 if __name__=='__main__':
     main()
