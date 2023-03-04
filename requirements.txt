@@ -3,3 +3,4 @@ pandas==1.5.3
 Pillow==9.4.0
 streamlit==1.17.0
 scikit-learn==1.1.2
+category-encoders==2.5.0
