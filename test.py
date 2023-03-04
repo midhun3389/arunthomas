@@ -16,13 +16,13 @@ def welcome():
 def main():
     global output
       # giving the webpage a title
-    st.title("Risk prediction")
+    st.title("Web application")
       
     # here we define some of the front end elements of the web page like 
     # the font and background color, the padding and the text to be displayed
     html_temp = """
     <div style ="background-color:yellow;padding:13px">
-    <h1 style ="color:black;text-align:center;">Streamlit Risk prediction ML app </h1>
+    <h1 style ="color:black;text-align:center;">Delivery Delay Prediction APP </h1>
     </div>
     """
       
@@ -191,10 +191,10 @@ def main():
         # result = prediction(sepal_length, sepal_width, petal_length, petal_width)
         st.title("PREDICTION")
         if output ==1:
-            st.success('There will be delivery risk')
+            st.success('There is a possibility of late delivery of the order')
         else:
         
-            st.success('There will be no risk')
+            st.success('Order is on time')
     
 if __name__=='__main__':
     main()
