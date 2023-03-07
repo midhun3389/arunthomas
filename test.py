@@ -49,14 +49,14 @@ def main():
     # Order_month = st.text_input("14.order month","Type Here")
     # Shipping_day =st.text_input("15.shipping day","Type Here")
     # Shipping_month = st.text_input("16.shipping month","Type Here")
-    Order_Item_Discount = st.number_input("17.Order Item Discount",0,500)
-    Order_Item_Quantity = st.number_input("18.Order Item Quantity",1,5)
-    Order_Profit_Per_Order = st.number_input("19.Order Profit Per Order",-4274.00,912.00,step=0.01)
-    OrderRegion = st.selectbox("20.OrderRegion",("Central America","Western Europe","South America","Oceania","Northern Europe","Southeast Asia","Southern Europe","Caribbean","West of USA","South Asia","Eastern Asia","East of USA","West Asia","US Center","South of  USA","Eastern Europe","West Africa"))
-    OrderState = st.selectbox("21.OrderState",("Queensland","Tokio","Inglaterra","California","Isla de Francia","Renania del Norte-Westfalia","San Salvador","Pernik","Suceava","Serbia Central","Rajastán"))
-    OrderStatus = st.selectbox("22.OrderStatus",("COMPLETE","PENDING","PENDING_PAYMENT","PROCESSING","CLOSED","ON_HOLD","SUSPECTED_FRAUD","CANCELED","PAYMENT_REVIEW"))
-    ShippingMode = st.selectbox("23.ShippingMode",("First Class","Standard Class","Second Class","Same Day"))
-    Shipping_date = st.text_input("24.Shipping date (DateOrders)","1/17/2018 12:06")
+    Order_Item_Discount = st.number_input("13.Order Item Discount",0,500)
+    Order_Item_Quantity = st.number_input("14.Order Item Quantity",1,5)
+    Order_Profit_Per_Order = st.number_input("15.Order Profit Per Order",-4274.00,912.00,step=0.01)
+    OrderRegion = st.selectbox("16.OrderRegion",("Central America","Western Europe","South America","Oceania","Northern Europe","Southeast Asia","Southern Europe","Caribbean","West of USA","South Asia","Eastern Asia","East of USA","West Asia","US Center","South of  USA","Eastern Europe","West Africa"))
+    OrderState = st.selectbox("17.OrderState",("Queensland","Tokio","Inglaterra","California","Isla de Francia","Renania del Norte-Westfalia","San Salvador","Pernik","Suceava","Serbia Central","Rajastán"))
+    OrderStatus = st.selectbox("18.OrderStatus",("COMPLETE","PENDING","PENDING_PAYMENT","PROCESSING","CLOSED","ON_HOLD","SUSPECTED_FRAUD","CANCELED","PAYMENT_REVIEW"))
+    ShippingMode = st.selectbox("19.ShippingMode",("First Class","Standard Class","Second Class","Same Day"))
+    Shipping_date = st.text_input("20.Shipping date (DateOrders)","1/17/2018 12:06")
   
 
     # Featurelist = {"Type":Type,"Days_for_shipment":[Type,Days_for_shipment],"Sales_per_customer":Sales_per_customer,"Category_Id":Category_Id,"CustomerSegment":CustomerSegment,
