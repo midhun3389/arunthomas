@@ -21,7 +21,7 @@ def main():
     # here we define some of the front end elements of the web page like 
     # the font and background color, the padding and the text to be displayed
     html_temp = """
-    <div style ="background-color:blue;padding:13px">
+    <div style ="background-color:LightBlue;padding:13px">
     <h1 style ="color:black;text-align:center;">Delivery Delay Prediction APP </h1>
     </div>
     """
