@@ -22,7 +22,7 @@ def main():
     # the font and background color, the padding and the text to be displayed
     html_temp = """
     <div style ="background-color:SkyBlue;padding:13px">
-    <h1 style ="color:black;text-align:center;">Delivery Delay Prediction APP </h1>
+    <h1 style ="color:black;text-align:center;">Delivery Delay Prediction </h1>
     </div>
     """
       
