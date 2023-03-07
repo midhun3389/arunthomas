@@ -65,9 +65,9 @@ def main():
     #                 "Order_Item_Discount":Order_Item_Discount,"Order_Item_Quantity":Order_Item_Quantity,"Order_Profit_Per_Order":Order_Profit_Per_Order,
     #                 "OrderRegion":OrderRegion,"OrderState":OrderState,"OrderStatus":OrderStatus,"ShippingMode":ShippingMode}
     Featurelist = {"Type":Type,"Days for shipment (scheduled)":Days_for_shipment,"Sales per customer":Sales_per_customer,"Category Id":Category_Id,"CustomerSegment":CustomerSegment,
-                    "Department Id":Department_Id,"Latitude":Latitude, "Longitude":Longitude,"Market":Market,"order date ":Order_date,"OrderCity":OrderCity,
+                    "Department Id":Department_Id,"Latitude":Latitude, "Longitude":Longitude,"Market":Market,"Order date ":Order_date,"OrderCity":OrderCity,
                     "Order Country":Order_Country,"Order Item Discount":Order_Item_Discount,"Order Item Quantity":Order_Item_Quantity,"Order Profit Per Order":Order_Profit_Per_Order,
-                    "OrderRegion":OrderRegion,"OrderState":OrderState,"OrderStatus":OrderStatus,"ShippingMode":ShippingMode,"shipping date (DateOrders)":Shipping_date}
+                    "OrderRegion":OrderRegion,"OrderState":OrderState,"OrderStatus":OrderStatus,"ShippingMode":ShippingMode,"Shipping date (DateOrders)":Shipping_date}
 
 
     # result =""
