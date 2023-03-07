@@ -83,13 +83,13 @@ def main():
         st.write(df)
         
         # st.write(df) df['order date '] = pd.to_datetime(df['order date '])
-        df['shipping date (DateOrders)'] = pd.to_datetime(df['shipping date (DateOrders)'])
-        # df['order year'] = pd.DatetimeIndex(df['order date ']).year
-        df['order month'] = pd.DatetimeIndex(df['order date ']).month
-        df['order day'] = pd.DatetimeIndex(df['order date ']).day
-        # df['Shipping year'] = pd.DatetimeIndex(df['shipping date (DateOrders)']).year
-        df['Shipping month'] = pd.DatetimeIndex(df['shipping date (DateOrders)']).month
-        df['Shipping day'] = pd.DatetimeIndex(df['shipping date (DateOrders)']).day
+        df['shipping date (DateOrders)'] = pd.to_datetime(df['Shipping date (DateOrders)'])
+        # df['order year'] = pd.DatetimeIndex(df['Order date ']).year
+        df['order month'] = pd.DatetimeIndex(df['Order date ']).month
+        df['order day'] = pd.DatetimeIndex(df['Order date ']).day
+        # df['Shipping year'] = pd.DatetimeIndex(df['Shipping date (DateOrders)']).year
+        df['Shipping month'] = pd.DatetimeIndex(df['Shipping date (DateOrders)']).month
+        df['Shipping day'] = pd.DatetimeIndex(df['Shipping date (DateOrders)']).day
 
         df = df.dropna()
         # df_select=df.drop(['Days for shipping (real)','Customer Email','Customer Fname','Customer Id','Customer Lname','Customer Password','CustomerStreet','Customer Zipcode','Order Customer Id','Order Id','Order Item Cardprod Id','Product Card Id','Product Image',"Delivery Status","Category Id","Order Item Id","Product Category Id","Product Status"],axis=1)
